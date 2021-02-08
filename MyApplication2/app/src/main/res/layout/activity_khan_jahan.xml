@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_of_place">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2000dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="2000dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:src="@drawable/khan"
+                    android:scaleType="fitXY"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="খান জাহান আলীর মাজার"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:text="খান জাহান আলীর মাজার (Khan Jahan Ali Mazar) দেখতে হলে খুলনা বিভাগের বাগেরহাট জেলায় যেতে হবে। হযরত খান জাহান আলী (র:) এর জন্ম ভারতে হলেও বাংলাদেশের যশোর, বাগেরহাট অঞ্চলে তিনি ধর্ম প্রচার করতে আসেন। তিনিই বাগেরহাটে বিখ্যাত ষাট গম্বুজ মসজিদ নির্মাণ করেন। অনেকের মতে খান জাহান আলী আরব দেশ থেকে দিল্লী হয়ে বাংলাদেশে আসেন । যদিও তাঁর ব্যক্তিগত ও পারিবারিক জীবন সম্পর্কে তেমন কোন তথ্য পাওয়া যায়নি তবে গবেষকগণ ধারণা করেন খান জাহান আলী সুলতান গিয়াসউদ্দিন আজম শাহ্-এর সমসাময়িক ছিলেন। খান জাহান আলী তৎকালীন গৌড়ের সুলতান নাসিরউদ্দিন মাহমুদ শাহের ঘনিষ্ঠ বন্ধু এবং সেনানায়ক ছিলেন। সুলতানের প্রতিনিধি হিসাবেই খান জাহান আলী বাগেরহাট অঞ্চলে জনপদ সৃষ্টি করে “খলিফাত-ই-আবাদ” নামকরণ করেন এবং ৩৬০ জন আউলিয়ার আগমনের সংখ্যার সাথে মিল রেখে তিনি ভাটি অঞ্চলে ৩৬০ টি মসজিদ নির্মাণ ও ৩৬০ টি দীঘি খনন করে ছিলেন।"
+                    android:id="@+id/t2"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কিভাবে যাবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:text="ঢাকার সায়দাবাদ বাস টার্মিনাল থেকে প্রতিদিন সকাল ৬টা থেকে ১০টা এবং সন্ধা ৭ টা থেকে রাত ১০ টা পর্যন্ত মেঘনা, বনফূল, ফাল্গুনী, আরা, পর্যটক, বলেশ্বর, হামিম ও দোলা পরিবহণের বেশ কিছু বাস ছেড়ে যায়। গাবতলী বাস টার্মিনাল থেকে সোহাগ, শাকুরা, হানিফ ও ইগল পরিবহণের গাড়ি ছাড়ে। এই বাসগুলোতে জনপ্রতি ৩০০ থেকে ৪০০ টাকা ভাড়া লাগে।
+
+এছাড়া ঢাকা থেকে খুলনাগামী আন্তঃনগর ট্রেন সুন্দরবন এক্সপ্রেসে খুলনা এসে সেখান থেকে বাসে বা সিএনজিতে করে বাগেরহাট আসতে পারবেন।
+
+খান জাহান আলীর মাজার শরীফ বাগেরহাট শহর থেকে মাত্র ৩ কিলোমিটার দক্ষিণ-পশ্চিম দিকে এবং খুলনা থেকে প্রায় ২২ কিলোমিটার দক্ষিণ-পূর্ব দিকে অবস্থিত। খুলনা বাগেরহাট মহাসড়ক থেকে মাত্র ৩০০ গজ দূরত্বে খান জাহান আলীর মাজার শরীফের অবস্থান। খুলনা বাগেরহাট মহাসড়কে বাস থেকে নেমে ৫ মিনিট পায়ে হেটে মাজারে যেতে পারবেন।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কোথায় থাকবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:text="বাগেরহাটে থাকার জন্য তেমন ভাল ব্যবস্থা নেই, তবে মাঝারি মানের কিছু আবাসিক হোটেল আছে। রেল রোডে মমতাজ হোটেলে সুযোগ সুবিধা কম থাকলেও সেবার মান তুলনামূলক ভাল, তবে খরচ একটু বেশি। এছাড়া বাগেরহাট সদরে সরকারি গেস্টহাউস, হোটেল অভি (০১৮৩৩৭৪২৬২৩) ছাড়াও কেন্দ্রীয় বাস স্টেশন সংলগ্ন হোটেল আল আমিন (০৪৬৮-৬৩১৬৮, ০১৭১৮৬৯২৭৩৭) এবং হোটেল মোহনা (০৪৬৮-৬৩০৭৫, ০১৭২২৮৫৮৩১৩) তে ৪০০ টাকা থেকে ১০০০ টাকায় রাত্রি যাপন করতে পারবেন।
+
+খুলনা থেকে বাগেরহাট বাসে যেতে মাত্র ১ ঘণ্টা সময় লাগে তাই রাত্রি যাপনের জন্য প্রয়োজনে চলে আসতে পারেন খুলনা বিভাগীয় শহরে।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

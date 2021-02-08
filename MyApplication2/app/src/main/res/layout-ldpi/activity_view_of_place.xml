@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_of_place">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:src="@drawable/longest"
+                    android:scaleType="fitXY"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কক্সবাজার"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="কক্সবাজার বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে অবস্থিত একটি শহর, মৎস্য বন্দর এবং পর্যটন কেন্দ্র।
+এটি চট্টগ্রাম বিভাগের কক্সবাজার জেলার সদর দপ্তর। কক্সবাজা......."
+                    android:id="@+id/t2"
+                    android:textSize="15dp"
+                    android:textColor="@color/white">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im2"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/saint">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="সেন্ট মার্টিন দ্বীপ"
+                    android:id="@+id/t3"
+                    android:textSize="25dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="সেন্ট মার্টিন দ্বীপ বাংলাদেশের সর্ব দক্ষিণে বঙ্গোপসাগরের উত্তর-পূর্বাংশে অবস্থিত একটি ছোট প্রবাল দ্বীপ (মাত্র ৮ বর্গকিলোমিটার)।
+এটি কক্সবাজার জেলার টেকনাফ......."
+                    android:id="@+id/t4"
+                    android:textSize="15dp"
+                    android:textColor="@color/white">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/moheshkhali"
+                    android:id="@+id/im3"
+                    android:scaleType="fitXY"
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="মহেশখালী"
+                    android:id="@+id/t5"
+                    android:textSize="25dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="মহেশখালী বাংলাদেশের কক্সবাজার জেলার অন্তর্গত একটি উপজেলা।
+এই অঞ্চলটি কক্সবাজারের একটি বাটি....."
+                    android:textSize="15dp"
+                    android:id="@+id/t6"
+                    android:textColor="@color/white">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

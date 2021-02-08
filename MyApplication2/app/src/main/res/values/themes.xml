@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#455A64</item>
+        <item name="colorPrimaryVariant">#455A64</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#455A64</item>
+        <item name="colorSecondaryVariant">#455A64</item>
+        <item name="colorOnSecondary">#455A64</item>
+        <item name="android:editTextColor">@android:color/white</item>
+       <item name="android:textColorPrimary">@android:color/white</item>
+
+
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="Theme.MyApplication.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="mycustom">
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="Theme.MyApplication.AppBarOverlay" parent="Theme.AppCompat.Light" />
+
+    <style name="Theme.MyApplication.PopupOverlay" parent="Theme.AppCompat.Light" />
+
+
+</resources>

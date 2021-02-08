@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/img"
+        android:src="@drawable/sajek"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="সাজেক ভ্যালি"
+        android:id="@+id/txt_task_name"
+        android:background="#FFB0BEC5"
+        android:textSize="25dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="সাজেক ভ্যালি বাংলাদেশের রাঙ্গামাটি জেলার বাঘাইছড়ি উপজেলার অন্তর্গত সাজেক ভ্যালি সাজেক ইউনিয়নের একটি বিখ্যাত পর্যটন আকর্ষণ।
+সাজেক ভ্যালি রাঙামাটি...."
+        android:background="#FFB0BEC5"
+        android:id="@+id/t2"
+        android:textSize="15dp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+
+</LinearLayout>

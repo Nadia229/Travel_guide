@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_of_place">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2500dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="2500dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:src="@drawable/alutila"
+                    android:scaleType="fitXY"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="আলুটিলা গুহা"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:text="আলুটিলা গুহা (Alutila Cave) পার্বত্য চট্টগ্রামের খাগড়াছড়ি জেলায় আলুটিলা পর্যটন কেন্দ্রে অবস্থিত একটি প্রাকৃতিক গুহার নাম। স্থানীয়দের কাছে আলুটিলা গুহা ‘মাতাই হাকড়’ বা ‘দেবতার গুহা’ নামে পরিচিত। আলুটিলা গুহার দৈর্ঘ্য ৩৫০ ফুট। গুহার ভেতরে সব সময় অন্ধকার থাকে এজন্য গুহায় প্রবেশ করতে হলে মশালের প্রয়োজন হয়। চাইলে মশালের বিকল্প হিসাবে মোবাইল টর্চ বা চার্জ লাইট নিয়ে যেতে পারেন। তাছাড়া গুহার অভ্যন্তরের পাথর গুলো বেশ পিচ্ছিল তাই ভালো গ্রিপের জুতা পড়ে যাওয়া উচিত। আলুটিলা গুহায় প্রবেশের আগে মূল গেটের কাছ থেকে ৪০ টাকা দিয়ে টিকেট সংগ্রহ করতে হয়। গুহার এক প্রান্ত দিয়ে ঢুকে অন্য প্রান্ত দিয়ে বের হতে মাত্র ১০ থেকে ১৫ মিনিট সময় লাগে। আর আলুটিলা গুহার কাছেই রয়েছে রিসাং ঝর্ণা। আলুটিলায় ঘুরতে এসে এত কাছের ঝর্ণাটি না দেখে চলে যাওয়া মোটেও ঠিক হবে না।
+"
+                    android:id="@+id/t2"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কিভাবে যাবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp"
+                    android:text="আলুটিলা গুহা দেখতে যেতে চাইলে প্রথমে খাগড়াছড়ি আসতে হবে। তারপর খাগড়াছড়ি থেকে স্থানীয় পরিবহণে আলুটিলা গুহায় যেতে হবে। খাগড়াছড়ি শহর থেকে ৭ কিলোমিটার দূরে মাটি রাঙ্গা উপজেলায় আলুটিলা গুহা অবস্থিত।
+
+ঢাকা হতে শান্তি, হানিফ, এস আলম, শ্যামলী, ইকোনো এবং ঈগল পরিবহনের এসি/নন-এসি বাসে চড়ে সরাসরি খাগড়াছড়ি যাওয়া যায়। বাস ভেদে জনপ্রতি ভাড়ার পরিমান নন এসি ৫২০ টাকা এবং এসি ৮৫০ থেকে ১২০০ টাকা।
+
+চট্টগ্রামের অক্সিজেন মোড় থেকে বি আর টি সি ও শান্তি পরিবহণের বাস খাগড়াছড়ি ছেড়ে যায়। সকাল ৭টা থেকে শান্তি পরিবহনের বাস ১-২ ঘন্ট পর পর ছেড়ে যায়। এছাড়া বেশ কিছু লোকাল বাসও খাগড়াছড়ি যায়। নন এসি এইসব বাসের ভাড়া ১৮০ থেকে ২৫০ টাকার মধ্যে। চট্টগ্রাম থেকে যেতে সময় লাগবে ৪-৫ ঘন্টা।
+
+খাগড়াছড়ি শহর থেকে চান্দের গাড়ি, সিএনজি, মোটরবাইক অথবা লোকাল বাস পাওয়া যায়। আপনারা একসাথে কতজন যাবেন সেই অনুযায়ী সুবিধামত পরিবহণ ব্যবস্থা ঠিক করে নিতে হবে। এছাড়া আলুটিলা গুহার কাছেই বৌদ্ধ মন্দির ও রিসাং ঝর্ণা। তাই সবচেয়ে ভালো আপনি যদি একসাথে এই সব গুলো জায়গা ঘুরে দেখে নিন। গাড়ি ঠিক করার সময় কোথায় কোথায় ঘুরবেন তা বলে নিবেন। সব গুলো জায়গা ঘুরতে সাধারণত চান্দের গাড়ি (১০-১৫ জনের জন্যে) রিসার্ভ করতে লাগবে ২০০০-৩০০০ টাকা, সিএনজি রিসার্ভ করতে লাগবে ৮০০-১০০০ টাকা। এই জায়গা গুলো ঘুরে দেখতে ৪-৫ ঘন্টা লাগবে। আর অবশ্যই ভাড়ার জন্যে দরদাম করে নিবেন।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কোথায় থাকবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:text="খাগড়াছড়ি (Khagrachari) শহরে রাত্রি যাপনের জন্য বিভিন্ন মানের আবাসিক হোটেল রয়েছে। রুম দেখে দরদাম করে আপনার পছন্দমত হোটেলে রাত্রিযাপন করতে পারবেন। হোটেলে ভেদে এক রাত অবস্থানের জন্য আপনাকে ৪০০ টাকা থেকে ৩৫০০ টাকা প্রদান করতে হবে। খাগড়াছড়ি শহরে ভালো মানের আবাসিক হোটেলের মধ্যে রয়েছে –
+
+পর্যটন মোটেল : শহরের চেঙ্গী নদী পাড়ে অবস্থিত এই মোটেলের দুই বেডের এসি রুম ভাড়া ২১০০ টাকা এবং নন এসি রুম ভাড়া ১৩০০ টাকা। যোগাযোগঃ ০৩৭১-৬২০৮৪৮৫
+হোটেল গাইরিং : খাগড়াছড়ি শহরে অবস্থিত এসি, নন এসি, ভিআইপি এসি ও গ্রুপ রুমের সুবিধা সহ শ্রেণী অনুযায়ী ভাড়া ১০০০ থেকে ৩০০০ টাকা। যোগাযোগঃ ০৩৭১-৬১০৪১, ০১৮১৫-১৬৩১৭৩
+অরণ্য বিলাস : শহরের নারিকেল বাগান অবস্থিত এই হোটেলে টুইন বেড এসি ২৫০০ টাকা, কাপল এসি ২০০০ টাকা, সিঙ্গেল বেড এসি ১৫০০ টাকা, টুইন নন এসি ২০০০ টাকা এবং কাপল নন এসি ১৫০০ টাকা ভাড়া । যোগাযোগঃ ০১৮৩৮-৪৯৭২৫৭
+গিরি থেবার : খাগড়াছড়ি ক্যন্টনমেন্টের ভিতরে অবস্থিত। ভিআইপি এসি রুম ভাড়া ৩০৫০ টাকা। এসি ডাবল রুম ভাড়া ২০৫০ টাকা। সিংগেল রুম যার ভাড়া ১২০০ টাকা। যোগাযোগ : ০১৮৫৯-০২৫৬৯৪
+হোটেল ইকো ছড়ি ইন : যোগাযোগঃ ০৩৭১-৬২৬২৫ , ৩৭৪৩২২৫
+যদি খুবই কম খরচে থাকতে চান তাহলে শাপলা চত্বরের আশেপাশে কিছু বোর্ডিং ধরণের হোটেল আছে সে গুলোতে ৩০০-৪০০ টাকায় থাকতে পারবেন।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

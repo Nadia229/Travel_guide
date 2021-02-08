@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_of_place">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2200dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="2200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:src="@drawable/moynamoti"
+                    android:scaleType="fitXY"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="ময়নামতি জাদুঘর"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:text="কুমিল্লা থেকে ১৪ কিলোমিটার দূরে সালমানপুরে অবস্থিত ময়নামতি জাদুঘর (Mainamati Museum) প্রত্নতাত্ত্বিক নিদর্শন সংগ্রহশালা হিসাবে বাংলাদেশের একটি গুরত্বপূর্ণ স্থান। ময়নামতি জাদুঘরের ৪২ টি ভিন্ন ভিন্ন সংরক্ষণাগারে কুমিল্লার বিভিন্ন স্থান থেকে সপ্তম ও অষ্টম শতাব্দীর নানা নিদর্শন সংরক্ষণ করে রাখা হয়েছে। প্রাচীন নিদর্শনগুলোর মধ্যে ব্রোঞ্জ ও পাথরের ছোট-বড় মূর্তি, ব্রোঞ্জের বিশাল ঘন্টা, স্বর্ণ ও রৌপ্য মুদ্রা, পোড়ামাটির ফলক, ব্রোঞ্জ, তামা ও লোহার সামগ্রী, মাটির খেলনা, কাঠের নিদর্শন, মৃৎশিল্প নিদর্শন এবং প্রাচীন হস্তলিপির পান্ডুলিপি উল্লেখযোগ্য। এছাড়া জাদুঘরকে কেন্দ্র করে গড়ে তোলা হয়েছে বিশ্রামাগার ও মনোরম ফুলের বাগান।"
+                    android:id="@+id/t2"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কিভাবে যাবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:text="কুমিল্লা থেকে ১৪ কিলোমিটার দূরে সালমানপুরে অবস্থিত ময়নামতি জাদুঘর (Mainamati Museum) প্রত্নতাত্ত্বিক নিদর্শন সংগ্রহশালা হিসাবে বাংলাদেশের একটি গুরত্বপূর্ণ স্থান। ময়নামতি জাদুঘরের ৪২ টি ভিন্ন ভিন্ন সংরক্ষণাগারে কুমিল্লার বিভিন্ন স্থান থেকে সপ্তম ও অষ্টম শতাব্দীর নানা নিদর্শন সংরক্ষণ করে রাখা হয়েছে। প্রাচীন নিদর্শনগুলোর মধ্যে ব্রোঞ্জ ও পাথরের ছোট-বড় মূর্তি, ব্রোঞ্জের বিশাল ঘন্টা, স্বর্ণ ও রৌপ্য মুদ্রা, পোড়ামাটির ফলক, ব্রোঞ্জ, তামা ও লোহার সামগ্রী, মাটির খেলনা, কাঠের নিদর্শন, মৃৎশিল্প নিদর্শন এবং প্রাচীন হস্তলিপির পান্ডুলিপি উল্লেখযোগ্য। এছাড়া জাদুঘরকে কেন্দ্র করে গড়ে তোলা হয়েছে বিশ্রামাগার ও মনোরম ফুলের বাগান।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কোথায় থাকবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:text="কুমিল্লা থেকে ১৪ কিলোমিটার দূরে সালমানপুরে অবস্থিত ময়নামতি জাদুঘর (Mainamati Museum) প্রত্নতাত্ত্বিক নিদর্শন সংগ্রহশালা হিসাবে বাংলাদেশের একটি গুরত্বপূর্ণ স্থান। ময়নামতি জাদুঘরের ৪২ টি ভিন্ন ভিন্ন সংরক্ষণাগারে কুমিল্লার বিভিন্ন স্থান থেকে সপ্তম ও অষ্টম শতাব্দীর নানা নিদর্শন সংরক্ষণ করে রাখা হয়েছে। প্রাচীন নিদর্শনগুলোর মধ্যে ব্রোঞ্জ ও পাথরের ছোট-বড় মূর্তি, ব্রোঞ্জের বিশাল ঘন্টা, স্বর্ণ ও রৌপ্য মুদ্রা, পোড়ামাটির ফলক, ব্রোঞ্জ, তামা ও লোহার সামগ্রী, মাটির খেলনা, কাঠের নিদর্শন, মৃৎশিল্প নিদর্শন এবং প্রাচীন হস্তলিপির পান্ডুলিপি উল্লেখযোগ্য। এছাড়া জাদুঘরকে কেন্দ্র করে গড়ে তোলা হয়েছে বিশ্রামাগার ও মনোরম ফুলের বাগান।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

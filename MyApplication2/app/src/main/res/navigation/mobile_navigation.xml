@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="হোম"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myapplication.Bd_activity"
+        android:label="বাংলাদেশ ভ্রমণ"
+        tools:layout="@layout/activity_bd_activity" />
+
+    <activity
+
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myapplication.Famous_places"
+        android:label="জনপ্রিয় স্থান"
+        tools:layout="@layout/activity_famous_places" />
+
+    <activity
+        android:id="@+id/nav_about"
+        android:name="com.example.myapplication.About"
+        android:label="ভ্রমণ গাইড সম্পর্কে"
+        tools:layout="@layout/fragment_gallery" />
+</navigation>

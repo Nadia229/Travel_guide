@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sylhet">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1200dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:scaleType="fitXY"
+                    android:onClick="Jaflong_detail"
+                    android:src="@drawable/jaflong"
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="জাফলং"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:textColor="@color/white">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="জাফলং, বাংলাদেশের সিলেটের গোয়াইনঘাট উপজেলার অন্তর্গত, একটি পর্যটনস্থল। জাফলং, সিলেট শহর থেকে ৬২
+কিলোমিটার উত্তর-পূর্ব দিকে...... "
+                    android:id="@+id/t2"
+                    android:textSize="15dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im2"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bichanakandi"
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="বিছানাকান্দি"
+                    android:id="@+id/t3"
+                    android:textSize="25dp"
+                    android:textColor="@color/white">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="বিছনাকান্দি (Bisnakandi) সিলেট শহর থেকে বেশখানিক পথ দূরে। প্রকৃতির আপন লীলাখেলায় মেতে আছে অপার সৌন্দর্যের জলপাথড়ের ভূমি বিছনাকান্দি...... "
+                    android:id="@+id/t4"
+                    android:textSize="15dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ratargul"
+                    android:id="@+id/im3"
+                    android:scaleType="fitXY"
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="রাতারগুল"
+                    android:id="@+id/t5"
+                    android:textSize="25dp"
+                    android:textColor="@color/white">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="রাতারগুল জলাবন বা বিশেষ জীববৈচিত্র্য সংরক্ষণ এলাকা (রাতারগুল) বা রাতারগুল সোয়াম্প ফরেস্ট বাংলাদেশের
+                    একমাত্র মিঠাপানির জলাবন এবং ....."
+                    android:textSize="15dp"
+                    android:id="@+id/t6"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rangamati">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1200dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:onClick="sajek_detail"
+                android:background="@drawable/image"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/im7"
+                    android:layout_width="190dp"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sajek">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="সাজেক ভ্যালি"
+                    android:gravity="center_vertical"
+                    android:id="@+id/t11"
+                    android:textSize="25dp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_width="138dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="-138dp"
+                    android:text="সাজেক ভ্যালি বাংলাদেশের রাঙ্গামাটি জেলার বাঘাইছড়ি উপজেলার অন্তর্গত সাজেক ভ্যালি সাজেক ইউনিয়নের একটি বিখ্যাত পর্যটন আকর্ষণ।
+সাজেক ভ্যালি রাঙামাটি...."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="25dp"
+                    android:textSize="15dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="horizontal"
+                android:onClick="alutila_detail"
+                android:background="@drawable/image">
+
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="300dp"
+                    android:id="@+id/im2"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/alutila"
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="আলুটিলা গুহা"
+                    android:id="@+id/t3"
+                    android:layout_marginStart="5dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/white">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="138dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="-138dp"
+                    android:text="আলুটিলা গুহা (Alutila Cave) পার্বত্য চট্টগ্রামের খাগড়াছড়ি জেলায় আলুটিলা পর্যটন কেন্দ্রে অবস্থিত একটি প্রাকৃতিক গুহার নাম। স্থানীয়দের কাছে আলুটিলা গুহা ‘মাতাই হাকড়’ বা ‘দ...."
+                    android:id="@+id/t4"
+                    android:textSize="15dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:onClick="saintmartin"
+                android:orientation="horizontal"
+                android:background="@drawable/image">
+
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/longest"
+                    android:id="@+id/im3"
+                    android:scaleType="fitXY"
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কক্সবাজার সমুদ্র সৈকত"
+                    android:id="@+id/t5"
+                    android:textSize="25dp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="138dp"
+                    android:layout_height="200dp"
+                    android:text="কক্সবাজার সমুদ্র সৈকত (Coxsbazar Sea Beach) নিয়ে কথা বলতেই প্রথমে মাথায় আসে এটি পৃথিবীর সর্ববৃহৎ........."
+                    android:textSize="15dp"
+                    android:id="@+id/t6"
+                    android:layout_marginStart="-138dp"
+                    android:layout_marginTop="28dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

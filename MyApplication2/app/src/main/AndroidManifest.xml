@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="সকল জেলা"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".Jaflong"
+            android:parentActivityName=".Bd_activity"
+            android:label="সকল জেলা">
+
+        </activity>
+        <activity android:name=".Sajek_valley"
+            android:label="সাজেক ভ্যালি"
+            android:parentActivityName=".Bd_activity"/>
+        <activity android:name=".khan_jahan"
+            android:label="খান জাহান আলী"
+            android:parentActivityName=".Bd_activity"/>
+        <activity android:name=".Moynamoti_details"
+            android:label="ময়নামতি"
+            android:parentActivityName=".Bd_activity"/>
+        <activity android:name=".Alutila_details"
+            android:label="আলুটিলা গুহা"
+            android:parentActivityName=".Bd_activity"/>
+        <activity android:name=".Details"
+            android:label="কক্সবাজার"
+            android:parentActivityName=".Bd_activity"/>
+        <activity
+            android:name=".Share"
+            android:label="সকল জেলা" />
+        <activity
+            android:name=".Comilla"
+            android:label="কুমিল্লা"
+            android:parentActivityName=".Bd_activity" />
+        <activity
+            android:name=".Sylhet"
+            android:label="সিলেট"
+            android:parentActivityName=".Bd_activity" />
+        <activity
+            android:name=".Khagrachori"
+            android:label="খাগড়াছড়ি"
+            android:parentActivityName=".Bd_activity" />
+        <activity
+            android:name=".Bagerhat"
+            android:label="বাগেরহাট"
+            android:parentActivityName=".Bd_activity" />
+        <activity
+            android:name=".About"
+            android:label="ভ্রমণ গাইড সম্পর্কে"
+            android:parentActivityName=".Bd_activity" />
+        <activity
+            android:name=".Save_places"
+            android:label="সংরক্ষিত স্থান"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Famous_places"
+            android:label="জনপ্রিয় স্থান"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Rangamati"
+            android:label="রাঙ্গামাটি"
+            android:parentActivityName=".Bd_activity" />
+        <activity
+            android:name=".view_of_place"
+            android:label="কক্সবাজার"
+            android:parentActivityName=".Bd_activity" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".Bd_activity"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

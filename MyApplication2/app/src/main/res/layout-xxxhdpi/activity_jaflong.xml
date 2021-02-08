@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_of_place">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2200dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="2200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:src="@drawable/jaflong"
+                    android:scaleType="fitXY"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="জাফলং"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="370dp"
+                    android:text="জাফলং (Jaflong) প্রকৃতির কন্যা হিসাবে পরিচিত। সিলেট জেলার দর্শনীয় স্থান গুলোর মধ্যে জাফলং সবার পছন্দ। সিলেটের গোয়াইনঘাট উপজেলার ভারতের মেঘালয় সীমান্ত ঘেঁষা প্রকৃতির দানে রুপের পসরা সাজিয়ে আছে জাফলং। পাথরের উপর দিয়ে বয়ে চলা পিয়াইন নদীর স্বচ্ছ পানির ধারা, ঝুলন্ত ডাউকি ব্রিজ, উঁচু উঁচু পাহাড়ে সাদা মেঘের খেলা জাফলংকে করেছে অনন্য। একেক ঋতুতে জাফলং একেক রকম রুপের প্রকাশ ঘটায়, যা পর্যটকদেরকে ভ্রমণের জন্য সারাবছরই আগ্রহী করে রাখে।"
+                    android:id="@+id/t2"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কিভাবে যাবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:text="ঢাকার ফকিরাপুল, গাবতলী, সায়েদাবাদ ও মহাখালী বাস টার্মিনাল থেকে সিলেটগামী বাসগুলো ছেড়ে যায়৷ এদের মধ্যে গ্রীন লাইন, সৌদিয়া, ইউনিক, এস আলম, শ্যামলি, এনা ও লন্ডন এক্সপ্রেস বাস অন্যতম। এসি বাসের জনপ্রতি আসন ভাড়া বাসভেদে ১০০০ থেকে ১২০০ টাকার মধ্যে এবং নন-এসি বাস ভাড়া ৪৭০ থেকে ৬০০ টাকা। ঢাকা থেকে সিলেটের দূরত্ব প্রায় ২৪০ কিলোমিটার এবং বাসে করে সিলেট পৌঁছাতে সময় লাগে প্রায় ৬ থেকে ৮ ঘন্টা।
+
+ঢাকা থেকে ট্রেনে সিলেট যেতে চাইলে কমলাপুর কিংবা বিমানবন্দর রেলওয়ে স্টেশান হতে উপবন, জয়ন্তিকা, পারাবত অথবা কালনী এক্সপ্রেস ট্রেনকে বেছে নিতে পারেন। শ্রেণী ভেদে ট্রেনের টিকেটের মূল্য ২৬৫ থেকে ৭৫০ টাকা। ট্রেনে সিলেট যেতে সময় লাগে প্রায় ৭-৮ ঘন্টা।
+
+আর ঢাকা থেকে সবচেয়ে দ্রুত সময়ে সিলেট যেতে আকাশ পথকে বেছে নিতে পারেন। শাহজালাল আন্তর্জাতিক বিমানবন্দর থেকে বিমান বাংলাদেশ, নভোএয়ার এবং ইউএস বাংলা এয়ারের বিমানে সিলেট যেতে ক্লাস অনুযায়ী টিকেট মূল্য ২৭০০ থেকে ১০,০০০ টাকার মধ্যে হয়ে থাকে।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কোথায় থাকবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:text="সাধারণত জাফলং ভ্রমণকারী পর্যটকরা রাত্রিযাপনের জন্য সিলেট শহরেই ফিরে আসেন। তাছাড়া সিলেট থেকে অন্যান্য ভ্রমণস্থানে যাওয়া সুবিধাজনক। সিলেটের বেশিরভাগ হোটেলগুলো শাহজালাল মাজারের আশেপাশকে ঘিরে অবস্থিত। দরগা গেট হতে আম্বরখানা, তালতলা, লামাবাজার, কদমতলী পর্যন্ত বিভিন্ন মানের আবাসিক হোটেল রয়েছে। কম খরচে থাকতে চাইলে দরগা গেট এলাকায় ৫০০-১০০০ টাকা মানের অনেক হোটেল পাবেন।
+
+ভালমানের আবাসিক হোটেলের মধ্যে আছে হোটেল হলি গেইট, হলি ইন, লা ভিস্তা হোটেল, পানসি ইন, হোটেল মেট্রো ইন্টারন্যাশনাল, ব্রিটানিয়া হোটেল ইত্যাদি। এসব হোটেলে থাকতে খরচ হবে ২,০০০ থেকে ১০,০০০ টাকা পর্যন্ত। লাক্সারী হোটেল ও রিসোর্টের মধ্যে আছে নিরভানা ইন, হোটেল নূরজাহান গ্র্যান্ড, রোজ ভিউ হোটেল, নাজিমগর রিসোর্ট, গ্র্যান্ড প্যালেস সহ আরও কিছু হোটেল। প্রতি রাতের জন্যে খরচ হবে ৮,০০০ থেকে ৩০,০০০ টাকা পর্যন্ত।
+
+আর জফলং যদি থাকতেই হয় তাহলে মামার বাজার এলাকায় জাফলং ইন হোটেল ও হোটেল প্যারিস সহ আরো কিছু রেস্ট হাউজ আছে। এছাড়া জাফলংয়ের কাছে সুন্দর ল্যান্ডস্কেপ ভিউ সহ জৈন্তিয়া হিল রিসোর্টে যোগাযোগ করতে পারেন। আর সরকারী রেস্ট হাউজে থাকতে পূর্ব অনুমতির প্রয়োজন হয়।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

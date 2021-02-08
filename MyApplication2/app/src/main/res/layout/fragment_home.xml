@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:theme="@style/mycustom"
+    tools:context=".ui.home.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            tools:ignore="MissingConstraints"
+            android:alpha="0.8"
+            android:background="@drawable/shape"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="100dp">
+                <LinearLayout
+                    android:layout_width="165dp"
+                    android:layout_height="126dp"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/bt1"
+                    android:layout_marginTop="20dp"
+                    android:background="#CFD8DC"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton1"
+                        android:layout_width="30dp"
+                        android:layout_height="143dp"
+                        android:layout_weight="1"
+                        android:onClick="imageButtonOnClick"
+                        android:src="@drawable/ic_baseline_my_location_24" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="165dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/bt2"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape">
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="30dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:background="#CFD8DC"
+                        android:onClick="saved"
+                        android:src="@drawable/ic_baseline_note_24"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="165dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/bt3"
+
+                    android:layout_marginStart="-338dp"
+                    android:layout_marginTop="160dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="30dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:onClick="btn"
+                        android:background="#CFD8DC"
+                        android:src="@drawable/vlog"
+                        tools:ignore="OnClick" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="165dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="160dp"
+                    android:id="@+id/bt4">
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="30dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:onClick="important"
+                        android:background="#CFD8DC"
+                        android:src="@drawable/importsn"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="-370dp"
+                android:layout_marginTop="190dp"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="বাংলাদেশ ভ্রমন"
+                    android:textColor="@color/white"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="সংরক্ষিত স্থান"
+                    android:textColor="@color/white"
+                    android:textSize="19dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="-410dp"
+                android:layout_marginTop="330dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="ভ্রমন ব্লগ"
+                    android:textColor="@color/white"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="জনপ্রিয় স্থান"
+                    android:textColor="@color/white"
+                    android:textSize="19dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="90dp"
+        android:background="#455A64"
+        android:layout_marginTop="-21dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="ভ্রমন গাইড"
+            android:layout_marginLeft="25dp"
+            android:textAlignment="center"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="-250dp"
+            android:text="দেশ-বিদেশ ভ্রমণের সকল তথ্য ও পরামর্শ"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:fontFamily="@font/durga"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="29dp"
+            android:alpha="0.8"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/shape"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-287dp"
+            android:layout_marginTop="476dp"
+            android:src="@drawable/ic_baseline_facebook_24">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="475dp"
+            android:src="@drawable/tw"
+            android:layout_marginStart="20dp"/>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="479dp"
+            android:src="@drawable/instra"
+            android:layout_marginStart="20dp"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="476dp"
+            android:src="@drawable/ic_baseline_ondemand_video_24"
+            android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+

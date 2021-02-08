@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_of_place">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1700dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="1700dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/image">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/im1"
+                    android:src="@drawable/sajek"
+                    android:scaleType="fitXY"
+                    >
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="সাজেক ভ্যালি"
+                    android:id="@+id/t1"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="330dp"
+                    android:text="সাজেক ভ্যালি (Sajek Valley), বর্তমান সময়ে ভ্রমণ পিপাসু মানুষের সবচেয়ে জনপ্রিয় গন্তব্য সাজেক। রাঙামাটি জেলার বাঘাইছড়ি উপজেলায় অবস্থিত সাজেক বাংলাদেশের সবচেয়ে বড় ইউনিয়ন হিসাবে খ্যাত। সমুদ্রপৃষ্ঠ থেকে যার উচ্চতা ১৮০০ ফুট। সাজেকের অবস্থান রাঙামাটি জেলায় হলেও ভৌগলিক কারণে খাগড়াছড়ির দীঘিনালা থেকে সাজেক যাতায়াত অনেক সহজ। খাগড়াছড়ি জেলা থেকে সাজেকের দূরত্ব ৭০ কিলোমিটার আর দীঘিনালা থেকে ৪০ কিলোমিটার।"
+                    android:id="@+id/t2"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কিভাবে যাবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:text="সাজেকের অবস্থান রাঙামাটি জেলায় হলেও খাগড়াছড়ি জেলার দীঘিনালা হয়ে সাজেক যাতায়াত অনেক সহজ। তাই প্রথমেই আপনাকে খাগড়াছড়ি আসতে হবে। ঢাকা থেকে খাগড়াছড়ি যেতে চাইলে সৌদিয়া, শ্যামলি, শান্তি পরিবহন, এস আলম, ঈগল ইত্যাদি বাসে করে যেতে পারবেন। নন এসি এইসব বাস ভাড়া ৫২০ টাকা। এসি বাসে যেতে চাইলে বিআরটিসি ও সেন্টমার্টিন পরিবহনে ৭০০ টাকা ভাড়ায় যেতে পারবেন। আর বাসগুলো সাধারণত রাত ১০ টার মধ্যে খাগড়াছড়ির উদ্দেশ্যে ছেড়ে যায়। এছাড়া শান্তি পরিবহন বাস সরাসরি দীঘিনালা যায়, ভাড়া ৫৮০ টাকা। ঢাকায় গাবতলী, কলাবাগানসহ শহরের বিভিন্ন প্রান্তে রয়েছে এইসব পরিবহণের কাউন্টার। ছুটির দিন গুলোতে যেতে চাইলে আগে থেকেই টিকেট কেটে রাখা ভালো নয়তো পড়ে টিকেট পেতে ঝামেলা পোহাতে হতে পারে।
+
+খাগড়াছড়ি থেকে সাজেক এর দূরত্ব প্রায় ৭০ কিলোমিটার। খাগড়াছড়ি শহরের শাপলা চত্বরের কাছ থেকে জীপগাড়ি/চাঁন্দের গাড়ি রিজার্ভ নিয়ে সাজেক ভ্যালি ঘুরে আসতে পারবেন। যাওয়া আসা সহ দুইদিনের জন্যে ভাড়া নিবে ৮,০০০-১০,০০০ টাকা। এক গাড়িতে করে ১২-১৫ জন যেতে পারবেন। তবে লোক কম থাকলে অন্য কোন ছোট গ্রুপের সাথে কথা বলে শেয়ার করে গাড়ি নিলে খরচ কম হবে। যদি তা সম্ভব না হয় তাহলে সিএনজি দিয়ে সাজেক যেতে পারবেন। রিজার্ভ ভাড়া লাগবে ৪০০০-৫০০০ টাকা। তবে পাহাড়ি উঁচু নিচু রাস্তা বলে সিএনজি দিয়ে ভ্রমণ না করাই ভালো।
+
+"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="কোথায় থাকবেন"
+                    android:textSize="25dp"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:text="সাজেকে থাকার জন্যে প্রায় শতাধিক রিসোর্ট ও কটেজ আছে। এক রাতের জন্যে রুম নিতে রিসোর্ট ভেদে ১৫০০ টাকা থেকে ১৫,০০০ টাকা পর্যন্ত ভাড়া লাগবে। ছুটির দিনে যেতে চাইলে আগে মাসখানেক আগে থেকেই বুকিং দিয়ে রাখা ভালো, নয়তো ভালো রুম পাবার নিশ্চিয়তা কম। আর কম দামে থাকতে চাইলে আদিবাসী কটেজ গুলোতে থাকতে পারেন। এছাড়া বর্তমানে পরিবেশের সাথে খাপ খাইয়ে নতুন নতুন অনেক কটেজ হয়েছে। সাজেকের সব কটেজ থেকেই মোটামুটি সুন্দর ভিউ পাওয়া যায়।"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="7dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
